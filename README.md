@@ -1,7 +1,7 @@
 # Alien Invasion Game
 
 ## Description
-Alien Invasion is a 2D shooting game built using Python and Pygame. Players control a spaceship to defend Earth by shooting down waves of alien ships. This was my first GitHub project, created as part of learning Python from the book **"Python Crash Course" by Eric Matthes**.
+Alien Invasion is a 2D shooting game built using Python and Pygame. Players control a spaceship to defend Earth by shooting down waves of alien ships. This was **my first GitHub project**, created as part of learning Python from the book **"Python Crash Course" by Eric Matthes**.
 
 This project helped me understand fundamental programming concepts, game development basics, and how to use GitHub for version control.
 
