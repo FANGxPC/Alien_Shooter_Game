@@ -1,13 +1,41 @@
-# Alien Invasion Game
+# Alien Shooter Game
 
-## Description
-Alien Invasion is a 2D shooting game built using Python and Pygame. Players control a spaceship to defend Earth by shooting down waves of alien ships. This was **my first GitHub project**, created as part of learning Python from the book **"Python Crash Course" by Eric Matthes**.
+A simple 2D arcade shooter made with Python and Pygame.
 
-This project helped me understand fundamental programming concepts, game development basics, and how to use GitHub for version control.
+## Getting Started Tutorial
 
-## Features
-- **Player Controls**: Move the spaceship left or right and shoot lasers to destroy alien ships.
-- **Alien Waves**: Aliens move across the screen and descend as you progress through levels.
-- **Scoring System**: Earn points for each alien destroyed.
-- **Game Over**: The game ends when aliens reach the bottom or collide with the spaceship.
-- **Dynamic Difficulty**: Alien speed increases as you advance through levels.
+### 1) Prerequisites
+- Python 3.9+ installed
+- `pip` available in terminal
+
+### 2) Open the project folder
+```bash
+cd /home/runner/work/Alien_Shooter_Game/Alien_Shooter_Game
+```
+
+### 3) (Optional) Create and activate a virtual environment
+```bash
+python -m venv .venv
+source .venv/bin/activate
+```
+
+### 4) Install dependencies
+```bash
+pip install pygame
+```
+
+### 5) Start the game
+```bash
+python alien_invasion.py
+```
+
+## Controls
+- Arrow keys: Move the ship
+- Space: Shoot
+- Q: Quit game
+- Mouse: Click **Play**, then choose difficulty (**Easy**, **Medium**, **Hard**)
+
+## Gameplay Notes
+- The game runs in fullscreen mode.
+- Score and high score are tracked during play.
+- Difficulty and alien speed increase as you progress.
